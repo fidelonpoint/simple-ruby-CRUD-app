@@ -14,6 +14,7 @@ gem 'bcrypt',         '3.1.12'
 #gem 'sqlite3'
 gem 'pg'
 gem 'jquery-rails'
+gem 'faker'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
@@ -50,6 +51,8 @@ group :development, :test do
   gem 'guard-minitest',           '2.4.4'
   gem 'bootstrap-sass', '3.3.7'
   gem 'rails-controller-testing'
+  gem 'will_paginate',           '3.1.6'
+  gem 'bootstrap-will_paginate', '1.0.0'
 
 end
 
