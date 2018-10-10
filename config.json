@@ -1,0 +1,130 @@
+[
+  {
+    "title":"CleverAtivity",
+    "drawable":"",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Recent",
+        "provider":"wordpress",
+        "arguments":[
+          "https://cleverativity.com/clevershop/api/get_recent_posts", ""
+        ]
+      },
+      {
+        "title":"Themes",
+        "provider":"wordpress",
+        "arguments":[
+          "cleverativity.com",
+          "themes"
+        ]
+      },
+      {
+        "title":"Security",
+        "provider":"wordpress",
+        "arguments":[
+          "cleverativity.com",
+          "security"
+        ]
+      },
+      {
+        "title":"Events",
+        "provider":"wordpress",
+        "arguments":[
+          "cleverativity.com",
+          "events"
+        ]
+      }
+    ]
+  },
+
+  {
+    "title":"Home",
+    "drawable":"",
+    "submenu":"WooCommerce",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Shop",
+        "provider":"woocommerce",
+        "arguments":[
+          " ", "https://cleverativity.com/clevershop/wp-content/uploads/2018/09/pexels-photo-356056.jpeg"
+        ]
+      }
+    ]
+  },
+  {
+    "title":"Orders",
+    "drawable":"",
+    "submenu":"WooCommerce",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Orders",
+        "provider":"woocommerce",
+        "arguments":[
+          "orders"
+        ]
+      }
+    ]
+  },
+
+ /* {
+    "title":"WebView",
+    "drawable":"",
+    "submenu":"Other",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"WebView",
+        "provider":"webview",
+        "arguments":[
+          "http://www.google.com"
+        ]
+      }
+    ]
+  },
+*/
+  /*{
+    "title":"Wordpress Other",
+    "drawable":"",
+    "submenu":"Other",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"WP JSON & Disqus",
+        "provider":"wordpress",
+        "arguments":[
+          "http://androidpolice.com",
+          "",
+          "http://androidpolice.disqus.com/;androidpolice;%d http://www.androidpolice.com/?p=%d"
+        ]
+      },
+      {
+        "title":"WP REST",
+        "provider":"wordpress",
+        "arguments":[
+          "https://wordpress.org/news/wp-json/wp/v2/",
+          ""
+        ]
+      }
+    ]
+  },*/
+
+  {
+    "title":"Custom",
+    "drawable":"",
+    "submenu":"Other",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"",
+        "provider":"custom",
+        "arguments":[
+          "com.sherdle.universal.SettingsFragment", "fragment"
+        ]
+      }
+    ]
+  }
+]
