@@ -16,7 +16,7 @@
         "title":"Themes",
         "provider":"wordpress",
         "arguments":[
-          "cleverativity.com",
+          "cleverativity.com/clevershop",
           "themes"
         ]
       },
@@ -24,7 +24,7 @@
         "title":"Security",
         "provider":"wordpress",
         "arguments":[
-          "cleverativity.com",
+          "cleverativity.com/clevershop",
           "security"
         ]
       },
@@ -32,7 +32,7 @@
         "title":"Events",
         "provider":"wordpress",
         "arguments":[
-          "cleverativity.com",
+          "cleverativity.com/clevershop",
           "events"
         ]
       }
