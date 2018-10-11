@@ -70,47 +70,6 @@
     ]
   },
 
- /* {
-    "title":"WebView",
-    "drawable":"",
-    "submenu":"Other",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"WebView",
-        "provider":"webview",
-        "arguments":[
-          "http://www.google.com"
-        ]
-      }
-    ]
-  },
-*/
-  /*{
-    "title":"Wordpress Other",
-    "drawable":"",
-    "submenu":"Other",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"WP JSON & Disqus",
-        "provider":"wordpress",
-        "arguments":[
-          "http://androidpolice.com",
-          "",
-          "http://androidpolice.disqus.com/;androidpolice;%d http://www.androidpolice.com/?p=%d"
-        ]
-      },
-      {
-        "title":"WP REST",
-        "provider":"wordpress",
-        "arguments":[
-          "https://wordpress.org/news/wp-json/wp/v2/",
-          ""
-        ]
-      }
-    ]
-  },*/
 
   {
     "title":"Custom",
