@@ -9,7 +9,7 @@
         "title":"Recent",
         "provider":"wordpress",
         "arguments":[
-          "https://cleverativity.com/clevershop/api/get_recent_posts", ""
+          "https://cleverativity.com/clevershop/wp-json/wc/v2", ""
         ]
       },
       {
